@@ -1,0 +1,36 @@
+body{
+  background-image: url(assets/digital.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+   min-height: 100vh;
+   min-width: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0;
+
+
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.clock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color:white;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 3px black;
+  border: 5px solid lightblue;
+  padding: 20px 40px;
+  width: 400px;
+  box-shadow: 5px 5px 5px black;
+  backdrop-filter: blur(200px);
+
+}
